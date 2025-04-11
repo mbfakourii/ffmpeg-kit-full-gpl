@@ -2,8 +2,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-
-        maven { url 'https://jitpack.io' } // ✅ and here too
     }
 
     dependencies {
@@ -15,8 +13,6 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
-
-        maven { url 'https://jitpack.io' } // ✅ and here too
     }
 }
 
@@ -53,6 +49,5 @@ android {
 
 dependencies {
     implementation 'androidx.annotation:annotation:1.5.0'
-    implementation 'com.github.mbfakourii:eeee:2.0.4'
-    api 'com.arthenica:smart-exception-java:0.2.1'
+    implementation 'com.arthenica:ffmpeg-kit-full-gpl:6.0-2'
 }
